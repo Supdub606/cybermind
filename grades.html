@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cursos - Cyber Mind</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0a1f44;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      color: #2c3e50;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #2c3e50;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .courses-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .course-card {
+      background: linear-gradient(to bottom, #ffffff, #d0eaff);
+      border-radius: 15px;
+      width: 250px;
+      padding: 20px;
+      color: #2c3e50;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .course-card img {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
+    .course-card h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .course-card p {
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+
+    .course-card button {
+      background-color: #00B4D8;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .course-card button:hover {
+      background-color: #009ec2;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      🔒 Cyber Mind
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Foro</a>
+      <a href="#">Premium</a>
+      <a href="login.html">Iniciar Sesión</a>
+      <a href="register.html">Registro</a>
+    </nav>
+  </header>
+
+  <div class="courses-container">
+    <div class="course-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" alt="profesionales" />
+      <h3>“Ciberseguridad Esencial para Profesionales No Técnicos”</h3>
+      <p>Aprende a proteger tu información incluso sin conocimientos técnicos avanzados.</p>
+      <button>Seleccionar</button>
+    </div>
+
+    <div class="course-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3159/3159648.png" alt="estudiantes" />
+      <h3>“Ciberseguridad para Estudiantes: Navega Seguro”</h3>
+      <p>Consejos y buenas prácticas para mantenerte seguro mientras estudias en línea.</p>
+      <button>Seleccionar</button>
+    </div>
+
+    <div class="course-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="emprendedores" />
+      <h3>“Ciberseguridad para Emprendedores y Usuarios Digitales”</h3>
+      <p>Protege tu negocio y tus datos con estrategias clave y herramientas básicas.</p>
+      <button>Seleccionar</button>
+    </div>
+
+    <div class="course-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="publico" />
+      <h3>“Ciberseguridad Rápida para Todos”</h3>
+      <p>Curso express con tips y herramientas para cuidarte en redes sociales y apps.</p>
+      <button>Seleccionar</button>
+    </div>
+  </div>
+
+</body>
+</html>
