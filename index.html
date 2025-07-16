@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cyber Mind - Inicio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .logo span {
+      margin-left: 8px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .start-button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 16px;
+      background-color: #00B4D8;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .start-button:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      🔒 <span>Cyber Mind</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Foro</a>
+      <a href="#">Premium</a>
+      <a href="login.html">Iniciar Sesión</a>
+      <a href="register.html">Registro</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Bienvenido a Cyber Mind</h1>
+    <p>Tu plataforma de aprendizaje inteligente.</p>
+
+    <!-- ✅ Botón de curso -->
+    <button class="start-button" onclick="window.location.href='login.html'">
+      Comenzar curso gratis
+    </button>
+  </main>
+
+</body>
+</html>
